@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function PreOrderBanner() {
   return (
-    <section className="relative overflow-hidden rounded-xl h-[140px] md:h-[160px]">
+    <section className="relative overflow-hidden rounded-xl h-35 md:h-40">
 
       {/* Background Image */}
       <Image
@@ -14,7 +14,7 @@ export default function PreOrderBanner() {
       />
 
       {/* Gradient Overlay (KEY FIX) */}
-      <div className="absolute inset-0 bg-gradient-to-r from-teal-600/85 via-teal-500/40 to-teal-500/85" />
+      <div className="absolute inset-0 bg-linear-to-r from-teal-600/85 via-teal-500/40 to-teal-500/85" />
 
       {/* Content */}
       <div className="relative z-10 h-full px-6 md:px-10 flex items-center justify-between">

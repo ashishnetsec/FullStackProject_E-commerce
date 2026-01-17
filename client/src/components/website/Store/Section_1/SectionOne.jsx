@@ -4,7 +4,7 @@ import PathSection from "./PathSection";
 const SectionOne = () => {
     return (
         <section className="bg-[#f2f3f7] py-6">
-            <div className="w-7xl mx-auto px-4">
+            <div className="max-w-7xl mx-auto px-4">
 
                 <PathSection />
 
