@@ -1,14 +1,10 @@
 import React from 'react'
+import Breadcrumb from '../../global/Breadcrumb'
 
 export default function PathSection() {
     return (
         <div>{/* Breadcrumb */}
-            <div className="bg-white rounded-lg px-5 py-3 text-sm text-gray-500 mb-6">
-                Home / Shop /{" "}
-                <span className="text-gray-900 font-medium">
-                    Top Cell Phones & Tablets
-                </span>
-            </div>
+            <Breadcrumb />
 
             {/* Title */}
             <h2 className="text-lg font-semibold mb-4">
