@@ -17,7 +17,7 @@ const ImageGallery = () => {
                 <img
                     src={images[0]}
                     alt="Product"
-                    className="mx-auto h-[420px] object-contain"
+                    className="mx-auto h-105 object-contain"
                 />
             </div>
 
